@@ -8,7 +8,7 @@ using Swashbuckle.AspNetCore.SwaggerGen;
 using System.Collections;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.Design;
-using System.Data.Entity.Migrations.Model;
+//using System.Data.Entity.Migrations.Model;
 using System.Linq.Expressions;
 using System.Runtime.Serialization;
 
