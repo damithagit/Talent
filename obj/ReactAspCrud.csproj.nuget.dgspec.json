@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Talent\\05.14\\ReactAspCoreBackEnd\\ReactAspCrud.csproj": {}
+    "C:\\Backup\\ReactAspCoreBackEnd\\ReactAspCrud.csproj": {}
   },
   "projects": {
-    "C:\\Talent\\05.14\\ReactAspCoreBackEnd\\ReactAspCrud.csproj": {
+    "C:\\Backup\\ReactAspCoreBackEnd\\ReactAspCrud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Talent\\05.14\\ReactAspCoreBackEnd\\ReactAspCrud.csproj",
+        "projectUniqueName": "C:\\Backup\\ReactAspCoreBackEnd\\ReactAspCrud.csproj",
         "projectName": "ReactAspCrud",
-        "projectPath": "C:\\Talent\\05.14\\ReactAspCoreBackEnd\\ReactAspCrud.csproj",
+        "projectPath": "C:\\Backup\\ReactAspCoreBackEnd\\ReactAspCrud.csproj",
         "packagesPath": "C:\\Users\\Wasu\\.nuget\\packages\\",
-        "outputPath": "C:\\Talent\\05.14\\ReactAspCoreBackEnd\\obj\\",
+        "outputPath": "C:\\Backup\\ReactAspCoreBackEnd\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -60,6 +60,18 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.0-preview.2.23128.3, )"
+            },
+            "Microsoft.Extensions.ApiDescription.Client": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "NSwag.ApiDescription.Client": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[13.0.5, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

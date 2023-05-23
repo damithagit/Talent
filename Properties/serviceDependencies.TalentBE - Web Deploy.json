@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": null,
+      "type": "mssql.onprem",
+      "connectionId": "ConnectionStrings:SalesDbContext"
+    },
+    "apis1": {
+      "apiEndpoint": "https://reactaspcrudbe.azure-api.net/",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/ReactAspCrudBE/apis/ReactAspCrud",
+      "type": "apis.azure"
+    }
+  }
+}

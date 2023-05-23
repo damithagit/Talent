@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAg9KDBIo5MUCJR2bcDitV1gAAAAACAAAAAAAQZgAAAAEAACAAAAAOFZtz3KnNTS7ftwcVLigYvbogHv8TAh9nCbcDLLevswAAAAAOgAAAAAIAACAAAAC/WeRvuZsEK++JK0RPhCoM3DcymzfRDQpwVTE2rh5WcoAAAACVV2Szhb2vMtvyqsUHackT7nADk9aA3y2gf8pwNOmQRISqUrZFLKG8wNsRcdFZCyjfflNVHgKp7txLcno5zD84HCjV/GA3p20baLsAcIBB6+g284hGb4FlVop0ysuFqsUbiOtaullX8QPkhA1/SYOixflagedyRirkxx4kdlK84kAAAADZRUnAPuvc0wy4BmrSvRtnse38wuCRpG1ZHMUtWmKeNsuurG0iSL6UhQrDgoziKXqDS9WlxFuKo+t6TXxsiCUq</EncryptedPassword>
+    <History>False|2023-05-21T10:29:46.6106600Z;True|2023-05-21T19:57:23.5515067+10:00;True|2023-05-21T12:05:51.9043032+10:00;True|2023-05-16T18:21:44.0363395+10:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="SalesDbContext">
+      <Value>Data Source=LAPTOP-2EDOGVGN%3bInitial Catalog=StoreSales%3bIntegrated Security=True%3bConnect Timeout=30%3bEncrypt=False%3bTrust Server Certificate=False%3bApplication Intent=ReadWrite%3bMulti Subnet Failover=False</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="ReactAspCrud.Models.SalesDbContext">
+      <Value>Data Source=LAPTOP-2EDOGVGN%3bInitial Catalog=StoreSales%3bIntegrated Security=True%3bConnect Timeout=30%3bEncrypt=False%3bTrust Server Certificate=False%3bApplication Intent=ReadWrite%3bMulti Subnet Failover=False</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

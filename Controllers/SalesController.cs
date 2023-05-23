@@ -176,7 +176,7 @@ namespace ReactAspCrud.Controllers
 
         [HttpPost]
         [Route("AddSales")]
-        public async Task<Sales> AddSales(SalesOnly objSales)
+        public async Task<Sales?> AddSales(SalesOnly objSales)
         {
 
            

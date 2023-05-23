@@ -1,0 +1,49 @@
+{
+  "dependencies": {
+    "apis1": {
+      "restored": true,
+      "restoreTime": "2023-05-16T08:19:24.2935008Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2023-05-21T01:55:21.7991786Z"
+    }
+  },
+  "parameters": {
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "2b22f827-99fe-44ab-b7e2-b1485cabe4e2"
+    },
+    "TalentBE.resourceGroupName": {
+      "Name": "TalentBE.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "appsvc_windows_centralus"
+    },
+    "TalentBE.resourceGroupLocation": {
+      "Name": "TalentBE.resourceGroupLocation",
+      "Type": null,
+      "Value": "centralus"
+    },
+    "apis1.resourceGroupName": {
+      "Name": "apis1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "AustraliaVic"
+    },
+    "apis1.subscriptionId": {
+      "Name": "apis1.subscriptionId",
+      "Type": "subscription",
+      "Value": "2b22f827-99fe-44ab-b7e2-b1485cabe4e2"
+    },
+    "TalentBE.resourceName": {
+      "Name": "TalentBE.resourceName",
+      "Type": null,
+      "Value": "TalentBE"
+    },
+    "TalentBE.subscriptionId": {
+      "Name": "TalentBE.subscriptionId",
+      "Type": "subscription",
+      "Value": "2b22f827-99fe-44ab-b7e2-b1485cabe4e2"
+    }
+  }
+}
